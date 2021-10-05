@@ -41,6 +41,10 @@ body{
     margin-bottom: 10px;
 }
 
+#container-child-1{
+    margin-top: 5%;
+}
+
 #container-child-2{
     background-color: black;
     height: 2px;
@@ -96,8 +100,7 @@ body{
 		font-size:4em;
 	}
 	
-	#container-child-2{
-		width: 360px;
-		height: 3px;
+	.container-child{
+		width: 540px;
 	}
 }

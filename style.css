@@ -55,16 +55,21 @@ body{
 
 @media (min-width:720px) and (min-height:720px){
 	.img-circ{
-		width:400px;
-		height:400px;
+		width:540px;
+		height:540px;
 	}
 	
 	.social-child{
-		height: 32px;
-		width: 32px;
+		height: 48px;
+		width: 48px;
 	}
 	
 	h1{
-		font-size:2.7em;
+		font-size:3.4em;
+	}
+	
+	#flex-child-2{
+		width: 360px;
+		height: 3px;
 	}
 }

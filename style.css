@@ -62,10 +62,11 @@ body{
 	.social-child{
 		height: 48px;
 		width: 48px;
+		margin: 15px;
 	}
 	
 	h1{
-		font-size:3.4em;
+		font-size:4em;
 	}
 	
 	#flex-child-2{

@@ -5,6 +5,7 @@
     --bg-color: #190933;
     --main-color: #f8e8dd;
     --sec-color: #ffffff;
+    --black-svg-to-main-color: invert(95%) sepia(1%) saturate(3945%) hue-rotate(322deg) brightness(102%) contrast(94%);
 }
 
 body{
@@ -87,13 +88,13 @@ body{
     justify-content: space-around;
     align-items: center;
     padding:5px;
-    filter:invert(100%);
 }
 
 .social-child{
     height:24px;
     width:24px;
     margin:10px;
+    filter:var(--black-svg-to-main-color);
 }
 
 .tint{

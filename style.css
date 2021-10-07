@@ -65,21 +65,34 @@ body{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: space-around;
     align-items: center;
     align-content: center;
+    margin-top: 2%;
     padding: 10px;
-    font-family: var(--sub-font);
 }
 
 .grid-container-child{
     position:relative;
-    border: 2px solid black;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    border: 2px solid var(--main-color);
+    color:var(--main-color);
     border-radius: 5px;
-    padding:10px;
+    padding:12px;
+    padding-top:15px;
     margin: 5px;
-    
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading1{
+    font-size: 1.4em;
+    font-family: var(--sub-font);
 }
 
 .social-carousel{
@@ -98,7 +111,7 @@ body{
 }
 
 .tint{
-	transition: filter 0.25s linear
+	transition: filter 0.125s linear
 }
 
 .tint:hover{
@@ -121,12 +134,26 @@ body{
 	.title{
 		font-size:4em;
 	}
-	
+
 	.container-child{
 		width: 540px;
 	}
 
     #container-child-1{
         margin-top: 10%;
+    }
+
+    .heading1{
+        font-size: 2.8em;
+    }
+
+    .grid-container{
+        margin-top: 2.5%;
+    }
+
+    .grid-container-child{
+        padding: 20px;
+        padding-top: 27px;
+        border-radius: 10px;
     }
 }

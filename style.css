@@ -1,7 +1,7 @@
 :root{
     --main-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --sub-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+
     --bg-color: #190933;
     --main-color: #f8e8dd;
     --sec-color: #ffffff;
@@ -91,7 +91,8 @@ a{
 
 .heading1{
     font-size: 1.4em;
-    font-family: var(--sub-font);
+    font-weight: bold;
+    font-family: var(--main-font);
 }
 
 .social-carousel{

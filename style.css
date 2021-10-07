@@ -52,7 +52,7 @@ a {
         width:300px;
     }
     #container-child-1{
-        margin-top: 25px;
+        margin-top: 60px;
     }
     #container-child-2{
         background-color: var(--main-color);
@@ -73,7 +73,7 @@ a {
     align-items: center;
     align-content: center;
     margin-top: 5px;
-    padding: 10px;
+    padding: 0;
 }
     .grid-container-child{
         position:relative;
@@ -160,11 +160,11 @@ h1, h2 {
 		width: 540px;
 	}
         #container-child-1{
-            margin-top: 75px;
+            margin-top: 100px;
         }
 
     .grid-container{
-        margin-top: 10px;
+        margin-top: 25px;
     }
         .grid-container-child{
             padding: 20px;

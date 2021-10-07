@@ -85,16 +85,6 @@ body{
     margin: 5px;
 }
 
-a{
-    text-decoration: none;
-}
-
-.heading1{
-    font-size: 1.4em;
-    font-weight: bold;
-    font-family: var(--main-font);
-}
-
 .social-carousel{
     display: flex;
     flex-direction: row;
@@ -110,12 +100,28 @@ a{
     filter:var(--black-svg-to-main-color);
 }
 
+.deadlink{
+    cursor:not-allowed;
+    display: inline-block;
+    pointer-events: none;
+}
+
 .tint{
 	transition: filter 0.125s linear
 }
 
 .tint:hover{
 	filter: invert(28%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading1{
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: var(--main-font);
 }
 	
 

@@ -118,8 +118,8 @@ h1, h2 {
 }
 
 .page-1{
-    height:100vh;
-    width: 100vh;
+    height:100%;
+    width: 100%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -177,6 +177,7 @@ h1, h2 {
         h2{
             font-size:3em;
         }
+
     .img-circ{
         width:540px;
         height:540px;

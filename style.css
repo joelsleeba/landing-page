@@ -1,21 +1,20 @@
-@import url(http://fonts.googleapis.com/css?family=Quicksand|Roboto:400,400);
+@import url(http://fonts.googleapis.com/css?family=DM+Serif+Display|Crimson+Text:400,400);
 
 :root{
-    --title-font:Quicksand, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-    --main-font: Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --title-font:'DM Serif Display', Cambria, Cochin, Georgia, 'Times New Roman', serif;
+    --main-font: 'Crimson Text', Cambria, Cochin, Georgia, 'Times New Roman', serif;
 
     --bg-color: #190933;
     --main-color: #f8e8dd;
     --sec-color: #ffffff;
     --black-svg-to-main-color: invert(95%) sepia(1%) saturate(3945%) hue-rotate(322deg) brightness(102%) contrast(94%);
-
     --base-transition: all 0.25s ease-out;
 }
 
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;         
+    box-sizing: border-box;
 }
 
 html, body{

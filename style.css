@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=DM+Serif+Display|Crimson+Text:400,400);
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Crimson+Text:wght@400&display=swap');
 
 :root{
     --title-font:'DM Serif Display', Cambria, Cochin, Georgia, 'Times New Roman', serif;

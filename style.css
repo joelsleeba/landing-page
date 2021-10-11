@@ -50,6 +50,18 @@ a {
     .container-child{
         width:300px;
     }
+    #container-child-0{
+        height:300px;
+        width:300px;
+        overflow:hidden;
+        border-radius: 50%;
+        transition: var(--base-transition);
+        justify-content: center;
+        align-items: center;
+    }
+        #container-child-0:hover{
+            filter:brightness(0.8) contrast(0.8);
+        }
     #container-child-1{
         margin-top: 60px;
     }
@@ -110,10 +122,8 @@ h1, h2 {
     }
 
 .img-circ{
-	height:300px;
-	width:300px;
-    overflow:hidden;
-    border-radius: 50%;
+    height:100%;
+    width:100%;
 }
 
 .page-1{
@@ -158,6 +168,10 @@ h1, h2 {
 	.container-child{
 		width: 540px;
 	}
+        #container-child-0{
+            height: 540px;
+            width: 540px;
+        }
         #container-child-1{
             margin-top: 100px;
         }
@@ -177,7 +191,7 @@ h1, h2 {
             font-size:3em;
         }
 
-    .img-circ{
+    .avatar-container{
         width:540px;
         height:540px;
     }

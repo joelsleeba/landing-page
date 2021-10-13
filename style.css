@@ -145,7 +145,7 @@ h1, h2 {
     border-radius:50%;
     filter: var(--black-svg-to-main-color);
 }
-    .img-circ:hover{
+    .img-circ:hover, .img-circ:focus{
         filter: var(--black-svg-to-sec-color);
     }
 
@@ -172,7 +172,7 @@ h1, h2 {
         filter:var(--black-svg-to-main-color);
         transition: var(--base-transition);
     }
-        .social-child:hover{
+        .social-child:hover, .social-child:focus{
             filter:invert(60%) sepia(7%) saturate(152%) hue-rotate(349deg) brightness(94%) contrast(88%);
         }
 

@@ -1,27 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Crimson+Text:wght@400&display=swap");
 
 :root {
-  --title-font: "DM Serif Display", Cambria, Cochin, Georgia, "Times New Roman",
-    serif;
-  --main-font: "Crimson Text", Cambria, Cochin, Georgia, "Times New Roman",
-    serif;
+  --title-font: "DM Serif Display", serif;
+  --main-font: "Crimson Text", serif;
+}
+
+*{
+  margin:0;
+  padding: 0;
 }
 
 head, body{
-  margin:0;
-  padding:0;
+  overflow: hidden;
 }
 
 header{
   position:absolute;
-  left: 33px;
+  left: 50px;
   bottom: 50px;
 }
 
-ul{
-  position:absolute;
-  right:33px;
-  bottom: 50px;
-  float:right;
-  list-style-type: none;
+h1 {
+  font-family: var(--title-font);
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 200;
+}
+h2 {
+  font-family: var(--main-font);
+	font-size: 20px;
+	font-weight: normal;
+	opacity: .7;
+}
+
+a{
+  text-decoration: none;
 }

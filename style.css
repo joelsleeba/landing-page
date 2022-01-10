@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Crimson+Text:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Inter:wght@300&display=swap");
 
 :root {
   --title-font: "DM Serif Display", serif;
-  --main-font: "Crimson Text", serif;
+  --main-font: "Inter", serif;
 }
 
 *{
@@ -16,19 +16,19 @@ head, body{
 
 header{
   position:absolute;
-  left: 50px;
-  bottom: 50px;
+  left: 60px;
+  bottom: 60px;
 }
 
 h1 {
   font-family: var(--title-font);
-	font-size: 40px;
+	font-size: 50px;
 	line-height: 48px;
-	font-weight: 200;
+	font-weight: 400;
 }
 h2 {
   font-family: var(--main-font);
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: normal;
 	opacity: .7;
 }

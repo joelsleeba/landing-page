@@ -36,3 +36,11 @@ h2 {
 a{
   text-decoration: none;
 }
+
+img{
+  position:absolute;
+  right: 10vmin;
+  bottom: 10vmin;
+  max-width: 25vmin;
+  max-height: 25vmin;
+}

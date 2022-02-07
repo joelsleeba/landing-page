@@ -36,3 +36,21 @@ h2 {
 a{
   text-decoration: none;
 }
+
+.social{
+  position:absolute;
+  right: 10vmin;
+  bottom: 10vmin;
+  list-style: none;
+  float: left;
+}
+
+.social li{
+  float:right;
+  margin: 1.5vmin;
+}
+
+.social-icons{
+  height: 5vmin;
+  width: 5vmin;
+}

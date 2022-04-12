@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+canvas {
+  vertical-align: top;
+}
+
 head, body{
   overflow: hidden;
 }

@@ -73,13 +73,14 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
 
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+    - university: "IISER Thiruvananthapuram"
+      year: "2021-2023"
+      degree: "Master of Science (MSc), Mathematics"
+
+    - university: "Madras Christian College"
+      year: "2018-2021"
+      degree: "Bachelor of Science (BSc), Mathematics" 
 
 # experience
 experience:
@@ -96,17 +97,21 @@ experience:
     URL: "#"
 
   items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
+    #- title: "Sr. Front-End Developer"
+    #  company: "Radity"
+    #  duration: "Feb 2011 - Sep 2019"
 
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
+    #- title: "Sr. Front-End Developer"
+    #  company: "Textic"
+    #  duration: "Apr 2010 - Jan 2011"
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Master's Project"
+      company: "Image Processing with Wavelets"
+      duration: "Jan 2023 - April 2023"
+    
+    - title: "Mentor"
+      company: "Online Foundation Course in Mathematics, MTTS Trust"
+      duration: "Sep 2022 - Oct 2021"
 
 # Client & Work
 client_and_work:
